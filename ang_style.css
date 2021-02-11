@@ -257,6 +257,7 @@ h1{
     line-height: 4.8vh;
 
     float:left;
+    padding-bottom: 100px;
 
 
 }
@@ -266,7 +267,6 @@ h1{
   position: inline;
 padding-left:4vw;
 padding-right:4vw;
-padding-top: 100px;
 }
 
 span{
@@ -345,9 +345,6 @@ a:visited {
   float:left;
   
 }
-
-
-
 
 
 
