@@ -1,0 +1,353 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    font-family: "Helvetica";
+    letter-spacing: -.1; 
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+    display: none;
+    padding-right: 1vw;
+    padding-left: 1vw; 
+}
+
+@font-face {
+  font-family: Theinhardt-Regular;
+  src: url(../fonts/Theinhardt-Regular.otf);
+}
+
+@media screen and (min-width:700px){
+
+
+
+
+h1{
+    font-size: 4.2vh; 
+    font-style: normal; 
+    font-weight:  300; 
+    line-height: 5.8vh;
+    padding-top: .4vh;
+
+    padding-right:4vw;
+        padding-left:1vw;
+    position:static;
+    padding-top: 2vh;
+    white-space: nowrap;
+}
+
+.logo img{
+    width:69%;
+
+
+}
+
+.logo{
+    font-size: 3vh; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    line-height: 4.8vh;
+
+
+}
+
+.desc{
+  bottom: 20px;
+  position: fixed;
+}
+
+span{
+font-family: 'HelveticaNeue-Medium'
+
+}
+
+
+p{
+    font-size: 1.8vh;
+    line-height: 2.7vh;
+    font-style: normal; 
+    font-weight:  300;   
+    padding-left:1vw;  
+
+    padding-right:4vw;
+
+}
+
+div:hover .descriptiontext {
+    display:block;
+}
+
+div:hover .work {
+    display:block;
+}
+
+
+
+#div1 {
+    width: 24%; 
+    height: 100%; 
+    float: left;
+    background: #fff;
+    overflow:scroll; 
+
+}
+
+
+
+
+
+h2{
+    font-size: 4.2vh; 
+    font-style: normal; 
+    font-weight:  300; 
+    line-height: 4.8vh;
+    padding-top: .4vh;
+    padding-right:4vw;
+    position:static;
+
+}
+
+#div2 { 
+    width: 38%; 
+    height: 100%; 
+    float: left;
+    background: white;
+    color:#fff;
+    overflow:scroll;
+    color:#393c44;
+
+}
+
+#div3 { 
+    width: 38%; 
+    height: 100%; 
+    float: left;
+    background: white;
+    color:#fff;
+    overflow:scroll;
+    color:#393c44;
+
+
+
+}
+
+
+.description{
+    font-size: 3vh; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    line-height: 4.8vh;
+    padding-right:4vw;
+
+
+
+
+}
+
+.post img{
+    width:100%;
+}
+
+.post{
+    font-size: 3vh; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    line-height: 4.8vh;
+    padding-left:1vw;
+    padding-right:1vw;
+    padding-bottom: 2vw;
+
+}
+
+
+
+a {
+  color:black;
+  text-decoration: none;  border-bottom: .5px solid black;
+  transition: 300ms;
+}
+
+a:hover {
+  cursor: url("link-cursor.png"), auto;
+
+}
+
+a:visited {
+    color:black;
+}
+
+
+
+
+}
+
+
+
+html {
+  overflow-x: initial !important;
+
+}
+
+@media screen and (max-width: 699px) and (min-width: 100px){
+
+
+
+body{
+  position: relative;
+  background-color: #fff;
+  margin:0 0 0 0;
+  cursor:none;
+  overflow: hidden;
+  overflow-y: auto;
+  letter-spacing: -.2;
+padding-right: 1vw;
+padding-left: 1vw; 
+}
+
+
+
+div:hover .descriptiontext {
+    display:none;
+}
+
+div:hover .work {
+    display:none;
+}
+
+#div1 {
+  width:100%;
+  float:left;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+h1{
+    font-size: 4.2vh; 
+    font-style: normal; 
+    font-weight:  300; 
+    line-height: 5.8vh;
+    padding-top: .4vh;
+
+    padding-right:4vw;
+    padding-left:4vw;
+    position:static;
+    padding-top: 2vh;
+    white-space: nowrap;
+}
+
+.logo img{
+    width:40%;
+
+
+}
+
+.logo{
+    font-size: 3vh; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    line-height: 4.8vh;
+
+    float:left;
+
+
+}
+
+.desc{
+  bottom: 20px;
+  position: inline;
+padding-left:4vw;
+padding-right:4vw;
+}
+
+span{
+font-family: 'HelveticaNeue-Medium'
+
+}
+
+
+p{
+    font-size: 1.8vh;
+    line-height: 2.7vh;
+    font-style: normal; 
+    font-weight:  300;   
+
+
+
+}
+
+
+.description{
+    font-size: 3vh; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    line-height: 4.8vh;
+    padding-left:4vw;
+    padding-right:4vw;
+float:left;
+
+
+
+}
+
+.post img{
+    width:100%;
+}
+
+.post{
+    font-size: 3vh; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight:300; 
+    line-height: 4.8vh;
+    padding-left:4vw;
+    padding-right:4vw;
+    padding-bottom: 2vw;
+
+}
+
+
+
+a {
+  color:black;
+  text-decoration: none;  border-bottom: .5px solid black;
+  transition: 300ms;
+}
+
+a:hover {
+  cursor: url("link-cursor.png"), auto;
+
+}
+
+a:visited {
+    color:black;
+}
+
+
+#div2 { 
+  width:100%;
+  float:left;
+
+}
+
+#div3 { 
+  width:100%;
+  float:left;
+  
+}
+
+
+
+
+
+
+}
