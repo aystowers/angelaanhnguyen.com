@@ -22,6 +22,10 @@ body{
   src: url(../fonts/Theinhardt-Regular.otf);
 }
 
+
+
+
+
 @media screen and (min-width:700px){
 
 
@@ -208,8 +212,8 @@ body{
   overflow: hidden;
   overflow-y: auto;
   letter-spacing: -.2;
-padding-right: 1vw;
-padding-left: 1vw; 
+  padding-right: 1vw;
+  padding-left: 1vw; 
 }
 
 
@@ -225,8 +229,6 @@ div:hover .work {
 #div1 {
   width:100%;
   float:left;
-  padding-left: 2vw;
-  padding-right: 2vw;
 }
 
 h1{
@@ -258,6 +260,7 @@ h1{
 
     float:left;
     padding-bottom: 50px;
+    width:100%;
 
 
 }
