@@ -66,10 +66,23 @@ h1{
   position: fixed;
 }
 
-span{
+.bold{
 font-family: 'HelveticaNeue-Medium'
 
 }
+
+a:hover span.email{
+ display: none;
+}
+
+a:hover span.emailaddress{
+ display: inline;
+}
+
+span.emailaddress{
+ display: none;
+}
+
 
 
 p{
