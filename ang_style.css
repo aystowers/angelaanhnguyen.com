@@ -230,6 +230,18 @@ body{
 }
 
 
+a:hover span.email{
+ display: none;
+}
+
+a:hover span.emailaddress{
+ display: inline;
+}
+
+span.emailaddress{
+ display: none;
+}
+
 
 div:hover .descriptiontext {
     display:none;
@@ -285,7 +297,7 @@ padding-left:4vw;
 padding-right:4vw;
 }
 
-span{
+span.bold{
 font-family: 'HelveticaNeue-Medium'
 
 }
